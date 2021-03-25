@@ -30,9 +30,9 @@ y1 = max_ROM_list
 y2 = min_ROM_list
 
 # plotting the points
-plt.plot(event_time_stamp_string_list, y1)
-plt.plot(event_time_stamp_string_list, y2)
-# plt.plot(position_time_stamp_string_list, position_values)
+# plt.plot(event_time_stamp_string_list, y1)
+# plt.plot(event_time_stamp_string_list, y2)
+plt.plot(position_time_stamp_string_list, position_values)
 
 # naming the x axis
 plt.xlabel('time')
