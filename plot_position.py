@@ -1,6 +1,7 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import datetime as dt
+import matplotlib.pyplot as plt
+
 
 event_df = pd.read_csv('sample_event_gio')
 position_df = pd.read_csv('sample_position_gio')
